@@ -92,7 +92,7 @@ export default function Pricing() {
       <section className="section section-tint" id="care">
         <div className="container">
           <Reveal>
-          <GlareHover className="care-glare" mode="loop" interval={4} glareColor="#ffffff" glareOpacity={0.7} borderRadius="18px" background="transparent">
+          <GlareHover className="care-glare" mode="loop" interval={4} glareColor="#ffffff" glareOpacity={0.7} borderRadius="24px" background="transparent">
           <div className="care">
             <div className="care-copy">
               <span className="icon-box"><Wrench /></span>

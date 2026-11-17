@@ -198,7 +198,7 @@ export default function Services() {
               </WaButton>
             </div>
             <Reveal>
-            <BorderGlow className="partner-glow" backgroundColor="#ffffff" borderRadius={18} glowColor="340 60 35" colors={['#7a1d3f', '#c0456b', '#e8a83b']} animated>
+            <BorderGlow className="partner-glow" backgroundColor="#fffdf9" borderRadius={24} glowColor="340 60 35" colors={['#7a1d3f', '#c0456b', '#e8a83b']} animated>
             <div className="partner-card">
               <span className="icon-box"><Handshake /></span>
               <ul className="ticks">

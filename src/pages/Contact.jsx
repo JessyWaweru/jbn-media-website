@@ -98,7 +98,7 @@ export default function Contact() {
         <div className="container contact-grid">
           <div className="contact-side">
             <Reveal>
-            <GlareHover className="contact-wa-glare" mode="loop" interval={3.5} glareColor="#ffffff" glareOpacity={0.6} borderRadius="18px">
+            <GlareHover className="contact-wa-glare" mode="loop" interval={3.5} glareColor="#ffffff" glareOpacity={0.6} borderRadius="24px">
             <a className="contact-wa" href={waLink()} target="_blank" rel="noopener noreferrer">
               <span className="contact-wa-icon"><WhatsAppIcon size={28} /></span>
               <span>
@@ -117,7 +117,7 @@ export default function Contact() {
           </div>
 
           <Reveal delay={0.1}>
-          <BorderGlow className="form-glow" backgroundColor="#ffffff" borderRadius={18} glowColor="340 60 35" colors={['#7a1d3f', '#c0456b', '#e8a83b']}>
+          <BorderGlow className="form-glow" backgroundColor="#fffdf9" borderRadius={24} glowColor="340 60 35" colors={['#7a1d3f', '#c0456b', '#e8a83b']}>
           <form className="form" onSubmit={submit}>
             <h2>Send an enquiry</h2>
             <p className="muted">Fill this in and it opens WhatsApp with your message ready to send.</p>

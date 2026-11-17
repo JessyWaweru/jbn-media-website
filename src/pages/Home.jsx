@@ -201,7 +201,7 @@ export default function Home() {
           </div>
           <Reveal className="steps steps-3" stagger={0.12}>
             {steps.map((s) => (
-              <GlareHover key={s.n} className="step" glareColor="#e8a83b" glareOpacity={0.35} borderRadius="18px" blendMode="multiply">
+              <GlareHover key={s.n} className="step" glareColor="#e8a83b" glareOpacity={0.35} borderRadius="24px" blendMode="multiply">
                 <div className="step-inner">
                   <span className="step-n">{s.n}</span>
                   <h3>{s.title}</h3>

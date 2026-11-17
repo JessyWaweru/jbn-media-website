@@ -34,7 +34,7 @@ export default function PlanCard({ plan }) {
 
   if (!plan.featured) return card;
   return (
-    <ElectricBorder className="plan-electric" color="#7a1d3f" theme="light" borderRadius={18} speed={0.8} chaos={0.35} thickness={1.5}>
+    <ElectricBorder className="plan-electric" color="#7a1d3f" theme="light" borderRadius={24} speed={0.8} chaos={0.35} thickness={1.5}>
       {card}
     </ElectricBorder>
   );
