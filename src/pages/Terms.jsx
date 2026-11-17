@@ -5,12 +5,14 @@ export default function Terms() {
   return (
     <>
       <Seo title="Terms of service" description="JBN Media terms of service: payments, deposits, monthly plans and project delivery." />
-      <section className="page-hero"><div className="container narrow"><span className="eyebrow">Legal</span><h1>Terms of service</h1><p className="muted">Last updated: October 2026</p></div></section>
+      <section className="page-hero"><div className="container narrow"><span className="eyebrow">Legal</span><h1>Terms of service</h1><p className="muted">Last updated: November 2026</p></div></section>
       <section className="section pt-0">
         <div className="container narrow prose">
           <p>These terms apply to services provided by JBN Media. By paying a deposit or subscribing to a monthly plan, you agree to them.</p>
           <h2>Quotes and pricing</h2>
           <p>Prices on our website are in Kenya Shillings. Prices marked "from" are starting prices for the standard package; your final price is confirmed in a written quote before work begins.</p>
+          <h2>Chat assistant</h2>
+          <p>The chat assistant on this website and on our demo pages is an automated AI assistant, not a person. Its replies are generated automatically and are for general information only. They may be wrong or incomplete, and they are not a quote, an offer or a commitment by JBN Media. Only a written quote from our team is binding. Orders or requests started in the chat only go ahead once our team confirms them with you. Demo pages show how an assistant would work for a business; they take no payments and create no orders.</p>
           <h2>One-off projects</h2>
           <ul>
             <li>A 50% deposit is required to start. The balance is due on handover.</li>
